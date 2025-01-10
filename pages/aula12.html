@@ -1,5 +1,5 @@
 <script>
-    let nome = 'wuller'
+    /*let nome = 'wuller'
     let idade = 37;
     let esta_matriculado = true;
     let saldo = -567.98
@@ -14,5 +14,26 @@
         document.write('é igual');
     }else {
         document.write('é diferente');
-    }
+    }*/
+
+    let alunos = [
+        'maria',
+        'josefa',
+        'zenilda',
+    ];
+    alunos.push('amanda');
+    alunos.push('barbara');
+    alunos.push('denise');
+    alunos.sort();
+    alunos = alunos.map(nome => nome.toUpperCase());
+   
+
+    for (let n = 0; n < alunos.length; n++) {
+     document.write(alunos[n] +'<br>');
+    
+
+   
+}
+    
+    
 </script>
